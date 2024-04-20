@@ -16,6 +16,15 @@ public class Main {
             linkedList.add(element);
             tree.insert(element);
         }
+        System.out.println("LinkedList");
+        for (int i = 0; i < 100; i++) {
+            System.out.println(linkedList.get(i));
+        }
+        System.out.println("---------------------------------------------------");
+        System.out.println("BStree");
+        tree.printKeysInOrder();
+
+        System.out.println("---------------------------------------------------");
 
         System.out.println("Lista aleatoria");
         int counter = 0; // Contador para imprimir cada 10 elementos
